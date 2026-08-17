@@ -14,7 +14,7 @@ verification against the current `main` branch.
 | PR | Topic | Initial disposition |
 |---|---|---|
 | #407 | Dispose SQLAlchemy engines to prevent pool exhaustion | Highest-priority user reliability review; reproduce and test before merge |
-| #393 | Hide SQL blocks by default from user preference | Compare with merged migration and current settings code; likely stale or partially superseded |
+| #393 | Hide SQL blocks by default from user preference | Close and replace: main already has the preference, while this PR regresses defined SQL dialects and misses async preference state |
 | #187 | Frontend model selection | Product-scope review; rebase or replace because it predates the current router and LLM stack |
 
 ### Current dependency updates
